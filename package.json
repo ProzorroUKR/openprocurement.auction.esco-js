@@ -17,7 +17,6 @@
     "angular-cookies": "1.5.8",
     "angular-ellipses": "https://github.com/genu/angular-ellipses/archive/0.1.3.tar.gz",
     "angular-growl-v2": "https://github.com/JanStevens/angular-growl-2/archive/0.7.2.tar.gz",
-    "angular-gtm-logger": "http://op:x9W3jZ@dist.quintagroup.com/op/angular-gtm-logger-1.0.2.tgz",
     "angular-mocks": "^1.3.0",
     "angular-timer": "http://op:x9W3jZ@dist.quintagroup.com/op/angular-timer-1.1.6.tgz",
     "angular-translate": "2.15.2",

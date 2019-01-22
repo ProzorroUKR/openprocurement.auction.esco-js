@@ -5,14 +5,11 @@ var appRequires = [
   'timer',
   'angular-growl',
   'angular-ellipses',
-  'GTMLogger',
 ];
 
 var db = {},
-    _LTracker = _LTracker || [],
     bidder_id = "0",
-    db_url = db_url || (location.protocol + '//' + location.host + "/" +  window.db_name ) || "",
-    dataLayer = dataLayer || [];
+    db_url = db_url || (location.protocol + '//' + location.host + "/" +  window.db_name ) || "";
 
 
 angular.module('auction', appRequires)
@@ -21,11 +18,3 @@ angular.module('auction', appRequires)
     restart_retries: 10,
     default_lang: 'uk',
     debug: false })
-
-
-function logMSG(MSG)
-{
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("POST", '/log', true);
-    xmlHttp.send(JSON.stringify(MSG));
-}

@@ -22,8 +22,7 @@
     "node_modules/angular-translate/dist/angular-translate.js",
     "node_modules/angular-translate/dist/angular-translate-storage-cookie/angular-translate-storage-cookie.js",
     "node_modules/angular-translate/dist/angular-translate-storage-local/angular-translate-storage-local.js",
-    "node_modules/angular-growl-v2/build/angular-growl.js",
-    "node_modules/angular-gtm-logger/angular-gtm-logger.js"
+    "node_modules/angular-growl-v2/build/angular-growl.js"
   ],
   "styles": [
     "node_modules/angular-growl-v2/build/angular-growl.css",
