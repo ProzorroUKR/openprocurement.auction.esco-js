@@ -28,7 +28,6 @@ module.exports = function(config) {
       './node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js',
       './node_modules/angular-growl-v2/build/*.js',
       './node_modules/angular-ellipses/src/*.js',
-      './node_modules/angular-gtm-logger/*.js',
       './node_modules/mathjs/dist/*.js',
       //'./node_modules/moment/*.js',
       //'./node_modules/moment-timezone/*.js',
@@ -41,10 +40,7 @@ module.exports = function(config) {
       './src/app/directives/*.js',
       //'test-main.js',
       './src/app/tests/auction_data_samples.js',
-      './src/app/tests/auction_utils.spec.js',
-      './src/app/tests/controllers.spec.js',
-      './src/app/tests/filters.spec.js',
-      './src/app/tests/utils.spec.js',
+      './src/app/tests/*.spec.js',
     ],
 
 

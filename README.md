@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/ProzorroUKR/openprocurement.auction.esco-js.svg?branch=master)](https://travis-ci.org/ProzorroUKR/openprocurement.auction.esco-js)
+[![Coverage Status](https://coveralls.io/repos/github/ProzorroUKR/openprocurement.auction.esco-js/badge.svg?branch=master)](https://coveralls.io/github/ProzorroUKR/openprocurement.auction.esco-js?branch=master)
+
 ## Openprocurement Esco Auction
 
 This package is part of openprocurement auction software
