@@ -8,6 +8,7 @@ angular.module('auction').controller('AuctionController', [
     var base_url = window.location.href.replace(window.location.search, '');
     var evtSrc = '';
     var response_timeout = '';
+    var setDocumentLang = (lang) => document.documentElement.lang = lang;
 
     if (AuctionUtils.inIframe() && 'localhost' != location.hostname) {
       $log.error('Starts in iframe');
@@ -101,6 +102,7 @@ angular.module('auction').controller('AuctionController', [
     } else {
       $rootScope.lang = $translate.storage().get($translate.storageKey()) || $rootScope.lang;
     }
+    setDocumentLang($rootScope.lang);
 
     /*      Time stopped events    */
     $rootScope.$on('timer-stopped', function(event) {
@@ -339,6 +341,7 @@ angular.module('auction').controller('AuctionController', [
     $rootScope.changeLanguage = function(langKey) {
       $translate.use(langKey);
       $rootScope.lang = langKey;
+      setDocumentLang(langKey);
     };
     // Bidding form msgs
     $rootScope.closeAlert = function(msg_id) {
